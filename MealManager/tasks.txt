@@ -1,0 +1,41 @@
+Meal Manager App
+
+Folder Structure:
+
+Private/Classes
+Private/Interfaces
+Private/Traits
+
+Public
+
+Interface and Activities:
+
+Type 1: (Meal Serial)
+1. Consumer Name
+2. Meal Type(Basic): Breakfast/Lunch/Supper - Different charges Structure[Previously Set Menu]
+3. Date
+4. Taken?
+5. Add meal,cost and show
+
+
+Type 2: (Meal Serial)
+1. Consumer Name
+2. Meal Type(Advanced): Breakfast/Lunch/Supper - Different charges Structure [Customized Menu]
+3. Date
+4. Guests? How Many? - cost will be added
+5. Taken?
+6. Add meal,cost and show
+
+Classes:
+1. Meal
+2. BasicMeal
+3. AdvancedMeal
+
+Interfaces:
+1. SetConsumerInterface
+2. SetChargeInterface
+3. SetDateInterface
+
+Traits:
+1. HasGuestTrait
+2. HasExtraChargeTrait
